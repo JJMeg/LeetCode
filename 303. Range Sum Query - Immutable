@@ -15,7 +15,6 @@ class NumArray {
         if (i == 0)
             return sum[j];
         return sum[j] - sum[i-1];
-        
     }
 }
 
